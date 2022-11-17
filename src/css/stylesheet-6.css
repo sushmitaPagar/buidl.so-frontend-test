@@ -1,0 +1,60 @@
+.box-content > .icon-component-text {
+    padding: var(--padding-s);
+}
+
+.box-content i {
+    margin-left: var(--margin-xxl);
+    margin-bottom: var(--margin-xl);
+}
+
+/* changed css for apply now button. */
+.coming-soon {
+    width: 15em;
+}
+
+/* changed css for gap between funds and grants sections */
+.layout--twocol-section {
+    gap: 0%;
+}
+
+/* css for vertical linear gradient border between funds and grants sections */
+.layout__region--first {
+    border-width: 2px;
+    border-style: solid;
+    border-left:0;
+    border-image: 
+    linear-gradient(rgba(0,0,0,0), rgb(71, 71, 71), rgba(0,0,0,0)) 0 100%;
+}
+
+/* changed css for funds and grants typography */
+.block-views-blockprograms-block-7 {
+    text-align: center;
+}
+
+.block-views-blockprograms-block-7 .label {
+    color: gray;
+}
+
+.block-views-blockprograms-block-8 {
+    text-align: center;
+}
+
+.block-views-blockprograms-block-8 .label {
+    color: gray;
+}
+
+/* changed css for CoinDCX image */
+.entity-header .img-thumb {
+    width: 40%;
+}
+
+/* Changed css for mentoring sessions images */
+.program-view-mentor-profile {
+    width: 250px;
+    margin: var(--margin-xxl);
+    border-radius: 6px;
+}
+
+.parent-container-flex .view-content {
+    justify-content: space-between;
+}
